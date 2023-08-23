@@ -4,8 +4,8 @@ pipeline {
         stage("Git") {
             steps{
                 git(
-                    url: "https://github.com/rayenkhw/test2.git",
-                    branch: "terraformtest",
+                    url: "https://github.com/Rayen-khalfaoui-git/projet-final.git",
+                    branch: "infrastructure",
                     changelog: false,
                     poll: false
                 )
