@@ -1,7 +1,7 @@
 provider "vsphere" {
   user                 = var.vsphere_user
   password             = var.vsphere_password
-  vsphere_server       = "vc-vstack-017-lab.virtualstack.tn"
+  vsphere_server       = "i removed this"
   allow_unverified_ssl = true
 }
 
