@@ -4,12 +4,12 @@ variable "vsphere_server" {
 }
 
 variable "vsphere_user" {
-  default = "RKI"
+  default = "your username here"
   type    = string
 }
 
 variable "vsphere_password" {
-  default   = "884@xk@pFC"
+  default   = "put your password here"
   type      = string
   sensitive = true
 }
