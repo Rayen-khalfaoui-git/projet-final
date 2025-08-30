@@ -1,5 +1,5 @@
 variable "vsphere_server" {
-  default = "stack.tn"
+  default = "*"
   type    = string
 }
 
@@ -20,17 +20,17 @@ variable "datacenter" {
 }
 
 variable "cluster" {
-  default = "Clu001-UCS02-PRD"
+  default = "*"
   type    = string
 }
 
 variable "datastore" {
-  default = "ds001-lab-ucs02-svc1-stor3-dtx1"
+  default = "*"
   type    = string
 }
 
 variable "network_name" {
-  default = "VLAN_LAB"
+  default = "*"
   type    = string
 }
 variable "template" {
